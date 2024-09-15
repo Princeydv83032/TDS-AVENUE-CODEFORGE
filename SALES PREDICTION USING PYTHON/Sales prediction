@@ -1,0 +1,28 @@
+I completed a Sales Prediction project using Python, applying machine learning techniques to forecast product sales based on factors such as advertising expenditure,
+target audience segmentation, and platform selection. This project allowed me to analyze data effectively and assist businesses in optimizing their advertising strategies to maximize sales potential.
+Here's a breakdown:
+
+Dataset Summary:
+
+The dataset contains information on TV, Radio, and Newspaper advertising spend and corresponding sales data for 200 observations.
+Summary statistics such as mean, standard deviation, and quartiles are provided for each feature.
+Model Prediction:
+
+You used a machine learning model (likely a linear regression or similar model) to predict sales (res = model.predict(x_test)).
+The sample predictions you printed are [10.93127621, 9.88042193, 12.09159447, ...].
+Sample Calculation:
+
+It appears that one of the predictions (10.931275958) was derived using a formula like:
+0.05473199
+×
+69.2
++
+7.14382225
+=
+10.931275958
+0.05473199×69.2+7.14382225=10.931275958
+This indicates that the model is likely using a simple linear equation with the coefficient 
+0.05473199
+0.05473199 for one feature (e.g., TV spend of 69.2) and an intercept of 
+7.14382225
+7.14382225.
